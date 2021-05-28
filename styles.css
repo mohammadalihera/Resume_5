@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #000000, #000000);
+	margin: 0;
+	padding: 0;
+	
+}
+.icon{
+	color:#046077;
+}
+
+.resume{
+	width:8.62in;
+	height: 12.2in;
+	background: rgb(24, 23, 23);
+	margin-left:auto;
+	margin-right: auto;
+	display: flex;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	-webkit-box-shadow: 0 0 50px rgb(0, 0, 0);
+        box-shadow: 50 50 50px rgb(0, 0, 0);
+}
+.left_column{
+	width: 300px;
+	height: 12.2in;
+	background-color: rgb(24, 23, 23);
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.left_column .sec_title{
+	width:170px;
+	height: 35px;
+	border:dotted 1px teal;
+	margin-left:70px;
+	margin-top: 250px;
+	text-align: center;
+}
+.left_column .project{
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+
+.p_nmae_link{
+	display: flex;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	
+}
+.p_name a{
+	text-decoration: none;
+	color:teal;
+	margin-left: 100px;
+	margin-right: 5px;
+}
+.fa-external-link-square-alt{
+  color:white;
+}
+
+
+a{
+	text-decoration: none;
+}
+.t_name{
+  font-size: 20px;
+  color:#f1f1f1;
+  margin-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+}
+.skill_row{
+	display: flex;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.s_name{
+	font-size: 14px;
+	color:white;
+	margin-right: 10px;
+	width:110px;
+}
+.l_5{
+	display: flex;
+}
+.yes{
+	height: 15px;
+	width:15px;
+	border-radius: 50%;
+	background-color:lawngreen;
+
+	margin-left: 6px;
+}
+.no{
+	height: 15px;
+	width:15px;
+	border-radius: 50%;
+	background-color:rgb(237, 240, 234);
+
+	margin-left: 6px;
+}
+.mid_column{
+	width: 200px;
+	height: 12.2in;
+	background-color:rgb(24, 23, 23);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+.right_column{
+	width: 300px;
+	height: 12.2in;
+	background-color: rgb(24, 23, 23);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.time_ex1{
+	margin-left:215px;
+	color:white;
+	font-size: 12px;
+	margin-top:20px;
+}
+.job_title_company{
+	color:white;
+}
+.sub_title{
+	font-size: 18px;
+	margin-left:70px;
+	color:teal
+}
+.p_tile{
+	font-size: 18px;
+	margin-left:90px;
+	color:teal;
+	margin-right: 4px;
+}
+.company_name{
+	font-size: 14px;
+	margin-left:165px;
+}
+.detail{
+	margin-top: 10px;
+	color:white;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 18px;
+}
+.image_holder{
+	width:180px;
+	height: 190px;
+	background-color: #cfc4c4;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+	position: relative;
+	clip-path: polygon(49% 0, 48% 0, 94% 28%, 94% 69%, 49% 100%, 6% 71%, 5% 28%);
+}
+.image{
+	margin-left:10px;
+	margin-top:10px;
+	width:160px;
+	height: 170px;
+    clip-path: polygon(49% 0, 48% 0, 94% 28%, 94% 69%, 49% 100%, 6% 71%, 5% 28%);
+}
+.about_bar{
+  width: 200px;
+  height: 11.05in;
+  background-color: #000000;
+  position: absolute;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.name_role{
+	margin-top: 120px;
+	margin-left:10px;
+}
+.name{
+	font-size: 25px;
+	color:white;
+	font-weight: bold;
+	margin-left: 5px;
+	font-family: 'Big Shoulders Display', cursive;
+	letter-spacing: 2px;
+}
+.role{
+	font-size: 14px;
+	color:#f1f1f1;
+	margin-left: 15px;
+}
+.about{
+	font-size: 12px;
+	color:#f1f1f1;
+	text-align: inherit;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+hr{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 5px;
+	border:none;
+    border-top:2px dotted rgb(223, 220, 220);
+}
+.secction_wrap{
+	margin-top:20px;
+}
+.contact{
+	margin-bottom: 15px;
+	
+}
+.contact_type{
+	height: 30px;
+	display: flex;
+	margin-bottom: 10px;
+	background-color: #221f1f;
+	align-items: center;
+	width:180px;
+	clip-path: polygon(0 0, 78% 0, 100% 0, 78% 0, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+}
+.type_name{
+	margin-left: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	
+}
+.c_icon{
+	color: rgb(255, 255, 255);
+	margin-left:10px;
+}
+.c_detail{
+	margin-bottom: 5px;
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+}
+.address{
+	margin-left: 30px;
+}
+.phone{
+	margin-left: 30px;
+}
+.mail{
+	margin-left:30px;
+}
+.contact a{
+	text-decoration: none;
+}
+.contact a:hover{
+	text-decoration: underline #999393;
+	color:aqua;
+
+}
+.languages{
+	display: flex;
+	margin-left: 10px;
+}
+.language{
+	display: flex;
+	margin-right: 15px;
+}
+.l_title{
+	height: 30px;
+	font-size: 16px;
+	color:white;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	clip-path: polygon(0 0, 70% 0%, 100% 0, 70% 0, 100% 100%, 0 100%, 0% 70%, 0% 30%);
+	background-color: #221f1f;
+	align-items: center;
+}
+.l_dot{
+	height: 10px;
+    width:10px;
+	background-color: #f1f1f1;
+	margin-right: 5px;
+	border-radius: 50%;
+	margin-top:4px;
+}
+.l_name{
+	color:white;
+	font-size: 14px;
+}
+.h_row{
+	display: flex;
+	margin-left: 30px;
+}
+.h_col{
+	margin-right: 20px;
+}
+.h_icon{
+	height: 30px;
+	width: 30px;
+	border: solid 1px rgb(250, 249, 249);
+	border-radius: 10px;
+	background-color: rgb(3, 3, 3);
+	padding-top:5px;
+	padding-left: 5px;
+	color:white;
+}
+.h_name{
+	font-size: 8px;
+	color:white;
+	margin-top:4px;
+	margin-left:2px;
+}
+
+.dtail_info{
+	width: 200px;
+	height: 12.2in;
+	z-index: 9;
+}
+
+.right_column .sec_title{
+	width:170px;
+	height: 35px;
+	border:dotted 1px teal;
+	margin-left:70px;
+	margin-top: 250px;
+	text-align: center;
+}
+.educations{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.d_name{
+	color:teal;
+	font-size: 16px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+}
+.clg_name{
+	color:rgb(255, 255, 255);
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+.duration{
+	color:white;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.cg{
+color:white;
+font-size: 10px;
+}
+
+.right_column .project{
+	margin-top:30px;
+	margin-bottom: 20px;
+}
+.achivements{
+	display: flex;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.ac_star{
+	height:25px;
+	width: 15px;
+	background-color: teal;
+	margin-right: 10px;
+	margin-top:3px;
+	clip-path: polygon(100% 0, 100% 100%, 48% 61%, 0 100%, 0 50%, 0 0);
+}
+.ac_name a{
+	text-decoration: none;
+	color:teal;
+	margin-right:5px;
+}
+.ac_name a:hover{
+	text-decoration: underline;
+}
+.right_column .reference{
+	margin-top:30px;
+}
+.referrences{
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.re_name{
+	color:teal;
+	margin-bottom: 4px;
+}
+.re_deg{
+	color:white;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+.re_mail a{
+	text-decoration: none;
+	color:white;
+	font-size: 12px;
+}
+.re_mail a:hover{
+	text-decoration: underline;
+}
